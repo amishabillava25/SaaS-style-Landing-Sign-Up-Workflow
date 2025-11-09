@@ -35,4 +35,6 @@ launchpad-saas
 ![Contact Us](./contact.png)
 
 
+The LaunchPad – SaaS-Style Landing Page + Sign-Up Workflow project demonstrates how a complete SaaS product flow works — from a visually appealing landing page to secure user registration and email automation. It successfully integrates frontend and backend technologies to create a smooth, interactive user experience while showcasing the core principles of full-stack web development.
+
     

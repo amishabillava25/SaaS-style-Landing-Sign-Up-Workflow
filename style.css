@@ -1,0 +1,195 @@
+/* === Basic Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* === Body & Layout === */
+body {
+  background: #f8f9fb;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* === Header === */
+header {
+  background: linear-gradient(90deg, #6c63ff, #845ef7);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+nav a:hover {
+  opacity: 0.7;
+}
+
+/* === Hero Section === */
+#hero {
+  text-align: center;
+  padding: 5rem 1rem;
+  background: #f1f0ff;
+}
+
+#hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #4b4bff;
+}
+
+#hero button {
+  background: linear-gradient(90deg, #6c63ff, #845ef7);
+  border: none;
+  color: white;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#hero button:hover {
+  transform: scale(1.05);
+}
+
+/* === Features Section === */
+#features {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1.5rem;
+}
+
+.feature {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+/* === Signup Section === */
+#signup-section {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #eef2ff;
+}
+
+#signup-form input {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.8rem;
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#signup-form button {
+  background: #6c63ff;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#form-message {
+  margin-top: 1rem;
+  color: green;
+  font-weight: bold;
+}
+
+/* === Dashboard Section === */
+#dashboard-section {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.dashboard-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#logout-btn {
+  margin-top: 2rem;
+  background: #ff5f5f;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* === Contact Section === */
+#contact {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #f9f9ff;
+}
+
+#contact-form input,
+#contact-form textarea {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.8rem;
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#contact-form button {
+  background: #6c63ff;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #6c63ff;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}

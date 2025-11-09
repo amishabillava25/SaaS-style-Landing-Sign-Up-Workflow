@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LaunchPad SaaS Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1>🚀 LaunchPad</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="hero">
+    <h2>Build. Launch. Scale.</h2>
+    <p>Supercharge your SaaS business with our all-in-one platform.</p>
+    <button id="signup-btn">Get Started</button>
+  </section>
+
+  <!-- ===== FEATURES ===== -->
+  <section id="features">
+    <h2>Key Features</h2>
+    <div class="feature-list">
+      <div class="feature">
+        <h3>⚡ Fast Deployment</h3>
+        <p>Launch your app in minutes with no setup hassle.</p>
+      </div>
+      <div class="feature">
+        <h3>🔒 Secure by Design</h3>
+        <p>Enterprise-grade encryption and multi-layer protection.</p>
+      </div>
+      <div class="feature">
+        <h3>📊 Powerful Analytics</h3>
+        <p>Real-time dashboards and performance tracking.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SIGNUP SECTION ===== -->
+  <section id="signup-section" class="hidden">
+    <h2>Sign Up for Free</h2>
+    <form id="signup-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <button type="submit">Join Now</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+  <!-- ===== DASHBOARD SECTION ===== -->
+  <section id="dashboard-section" class="hidden">
+    <h2>Welcome, <span id="user-name"></span> 👋</h2>
+    <div class="dashboard-grid">
+      <div class="card">Active Projects: <strong>4</strong></div>
+      <div class="card">Tasks Completed: <strong>28</strong></div>
+      <div class="card">Team Members: <strong>7</strong></div>
+    </div>
+    <button id="logout-btn">Log Out</button>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="contact-message"></p>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 LaunchPad Inc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
